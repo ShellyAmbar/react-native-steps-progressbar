@@ -56,6 +56,7 @@ const HorizontalGradiantProgressbar = ({
         {[...Array(steps)].map((step, index) => {
           return (
             <View
+              key={index}
               style={
                 currentStep >= index
                   ? [Styles.stepSelected, {...stepSelectedViewStyle}]
