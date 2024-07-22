@@ -1,6 +1,6 @@
 {
   "name": "react-native-steps-progressbar",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is a custom view of a dynamic steps view with an animated progress bar ",
   "main": "./horizontal-gradiant-progressbar/horizontal-gradiant-progressbar.tsx",
   "scripts": {

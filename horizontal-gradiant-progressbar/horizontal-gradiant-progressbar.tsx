@@ -37,8 +37,6 @@ const HorizontalGradiantProgressbar = ({
     <View style={Styles.container}>
       <View
         onLayout={(e) => {
-          console.log(e.nativeEvent.layout.width);
-
           setwidth(e.nativeEvent.layout.width);
         }}
         style={[Styles.circularContainer, {...containerStyle}]}
