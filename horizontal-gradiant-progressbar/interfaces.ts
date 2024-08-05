@@ -11,8 +11,8 @@ type HorizontalGradiantProgressbarProps = {
   stepTextStyle?: TextStyle;
   stepSelectedViewStyle?: ViewStyle;
   stepUnSelectedViewStyle?: ViewStyle;
-  stepSelectedTextStyle?: ViewStyle;
-  stepUnSelectedTextStyle?: ViewStyle;
+  stepSelectedTextStyle?: TextStyle;
+  stepUnSelectedTextStyle?: TextStyle;
 };
 type HorizontalGradiantProgressbarStylesProps = {
   animatedWidthValue: Animated.AnimatedInterpolation<string | number>;

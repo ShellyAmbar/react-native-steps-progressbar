@@ -62,11 +62,13 @@ const createStyle = ({
     },
     stepTextSelected: {
       color: "#FFFF",
-      fontSize: 16,
+      fontSize: 10,
+      textAlign: "center",
     },
     stepTextUnSelected: {
       color: colorPrimary,
-      fontSize: 16,
+      fontSize: 10,
+      textAlign: "center",
     },
   });
 };

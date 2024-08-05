@@ -25,6 +25,7 @@ const HorizontalGradiantProgressbar = ({
     steps,
     currentStep,
     width,
+    stepSize,
   });
   const Styles = createStyle({
     animatedWidthValue: widthInterpolate,

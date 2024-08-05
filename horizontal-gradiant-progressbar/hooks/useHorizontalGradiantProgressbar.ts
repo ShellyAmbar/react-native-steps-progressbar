@@ -6,6 +6,7 @@ const useHorizontalGradiantProgressbar = ({
   currentStep,
   steps,
   width,
+  stepSize,
   ...props
 }: UseHorizontalGradiantProgressbarProps) => {
   const animatedValue = useRef(new Animated.Value(0)).current;
@@ -18,7 +19,7 @@ const useHorizontalGradiantProgressbar = ({
 
   const slideHorizontal = () => {
     Animated.timing(animatedValue, {
-      toValue: (width / steps) * currentStep + 30,
+      toValue: (width / steps) * currentStep + stepSize,
       duration: 300,
       useNativeDriver: false,
     }).start();
